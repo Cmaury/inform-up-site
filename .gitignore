@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Built files
+built/
+content/data/*.db
+content/data/ghost*.json
+content/data/*.log
+
+# Images and other content should not be in source control
+content/images/
+content/logs/
+content/adapters/
+content/settings/
+
+# Dependencies
+bower_components/
+
+# Backup and temporary files
+*.log
+*.sql
+*.sqlite
+
+# Environment configuration
+.config
+.env
+*.development.json
+*.production.json
+
+# Ignore the Ghost content directory in some setups, unless you want to track your themes
+# content/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Yarn Integrity file
+.yarn-integrity
