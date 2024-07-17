@@ -1,5 +1,6 @@
 # Node modules
 node_modules/
+versions/5.87.0/node_modules/
 
 # Built files
 built/
